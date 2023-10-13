@@ -14,8 +14,8 @@ Project Features include:
 | /addURL             | POST      | User's target URL | Shows the created URL key with additional info,  including an admin key             |
 | /peek_{url_key}     | GET       |                   | Returns a string showing the target URL behind the given URL key                    |
 | /goto_{url_key}     | GET       |                   | Redirects to the target URL behind the given URL key                                |
-| /admin/{secret_key} | GET       |                   | Shows administrative info about the shortened URL in the form of the created URLobj |
-| /admin/{secret_key} | DELETE    |                   | Deletes shortened URL                                                               |
+| /admin/{admin_key} | GET       |                   | Shows administrative info about the shortened URL in the form of the created URLobj |
+| /admin/{admin_key} | DELETE    |                   | Deletes shortened URL                                                               |
 
 ## Request Examples
 ### POST /addURL
