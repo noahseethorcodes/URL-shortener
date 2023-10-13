@@ -1,6 +1,8 @@
 # URL-shortener
 A URL shortener RESTful webservice written in Java using the Springboot framework.
-Features include:
+This was my first project in Java, and I wanted to build this to demonstrate my proficiency in the framework and language, as well as apply my understanding of how to build a good RESTful webservice. The project idea takes reference from a [similar Python FASTapi](https://realpython.com/build-a-python-url-shortener-with-fastapi/) project I had done previously.
+
+Project Features include:
 * Graceful Forwarding - Check if the website exists before forwarding to target URL
 * Input Validation and Customised Exception Handling
 * HATEOAS Implementation
